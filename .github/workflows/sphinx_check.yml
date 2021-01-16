@@ -10,5 +10,5 @@ jobs:
     # Standard drop-in approach that should work for most people.
     - uses: theturnout/sphinx-action@master
       with:
-        build-command: "sphinx-build . -b html"
+        build-command: "sphinx-build -b html . build"
         docs-folder: "docs/source/"
